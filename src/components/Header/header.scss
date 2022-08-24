@@ -1,0 +1,26 @@
+
+
+.header 
+{
+    width: 100%;
+    height: 4rem;
+    background-color: #1122B2;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding: 1rem 2rem;
+   
+    a 
+    {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color:#ffffff;
+        text-transform: uppercase;
+        transition: all .3s linear;
+        
+    }
+}
+.header a:hover 
+{
+   color: orange;
+}
